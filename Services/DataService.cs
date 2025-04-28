@@ -51,6 +51,11 @@ namespace MauiAppTempoAgora.Services
 
             return t;
         }
+
+        internal static async Task<Tempo?> GetPrevisao(object text)
+        {
+            throw new NotImplementedException();
+        }
     } 
 
 }
